@@ -44,7 +44,7 @@ app.post("/login", (req, res) => {
             if (foundUser.password === password) {
                 console.log("check-2")
 
-                res.send({ status: true, code:1,msg: "Login Success", email: username })
+                res.send({ status: true,msg: "Login Success", email: username })
 
             } else {
                 console.log("check-3")
