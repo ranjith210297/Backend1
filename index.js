@@ -70,6 +70,9 @@ app.post("/login", (req, res) => {
     })
 })
 
+app.get("/",(req,res) => {
+    console.log("server is up")
+})
 
 
 app.get("/fetchCandidates", (req, res) => {
